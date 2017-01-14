@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>优惠政策</title>
+    <link rel="stylesheet" href="../resource/css/reset.min.css">
+    <link rel="stylesheet" href="../files/css/preferentialPolicy.css">
+</head>
+<body>
+<div id="header"></div>
+<div class="title">
+    <span>首页</span><small></small><span>优惠政策</span>
+</div>
+<div class="content">
+    <ul class="list">
+        <li><p class="notice_btn">优惠政策</p></li>
+        <li><p class="notice_btn">通知公告</p></li>
+        <li><p class="notice_btn">园区动态</p></li>
+        <li><p class="aboutWe_btn">关于我们</p></li>
+    </ul>
+<div class="Img">
+    <img src="../resource/image/u3042.png" alt="">
+</div>
+    <div class="contB">
+        <ul class="contB_list">
+            <li><small class="round"></small><span class="text">通过州级众创空间认定的一次补助20万元，补助方式采取报账方式执行。</span> <span class="time">2016-11-16</span></li>
+            <li><small class="round"></small><span class="text">通过州级众创空间认定的一次补助20万元，补助方式采取报账方式执行。</span> <span class="time">2016-11-16</span></li>
+            <li><small class="round"></small><span class="text">通过州级众创空间认定的一次补助20万元，补助方式采取报账方式执行。</span> <span class="time">2016-11-16</span></li>
+            <li><small class="round"></small><span class="text">通过州级众创空间认定的一次补助20万元，补助方式采取报账方式执行。</span> <span class="time">2016-11-16</span></li>
+        </ul>
+        <div class="aboutWe">
+            <p>1.基本概述</p>
+            开远市“互联网+”创业孵化园，是由开远市政府主导，开远众创互联网产业园管理有限公司组建和管理的“互联网+”集群化项目。园区配套设施完备、功能齐全，设有：办公区（包括大型培训室、会议室）、电商服务商集聚区（如摄影、美工、培训、推广、代运营、网页制作等），为广大电商创业者提供完善的一站式产业链接管理服务，帮助中小网商快速成长，为电子商务进农村提供全方位支撑。
+            <p>2.孵化对象</p>
+            ①想通过淘宝、京东、微商城等第三方电商平台创业的个人或小微企业；<br/>②电子商务第三方服务商（物流、打包、拍照摄影、优化、推广、店铺装修等）；<br/>③对互联网发展趋势有强烈认知并正在转型的传统企业；<br/>④以及热爱互联网行业，想自己创业的其它个人或者团体。
+            <p>3.入驻流程</p>
+            ①提交入驻申请表--②提交项目方案书--③项目评审会初审--④园区管理办公室终审--⑤学习园区规章制度--⑥办理入驻手续
+            <p>4.报名方式</p>
+            ①官网填写相关信息并预留电话，我们的工作人员会及时与您取得联系<br/>
+            ②通过联系电话:0873-7210900 或者在线 QQ 报名:1286662969<br/>
+            ③园区现场报名 : 开远市建设东路与一行路口交汇处<br/>
+            ④通过百度贴吧开远吧精华顶置贴：开远“互联网+”创业孵化园绿色报名通道<br/>
+            <div class="about_Img">
+                <img src="../files/image/u3149.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="footer"></div>
+</body>
+</html>
+<script type="text/javascript" charset="utf-8" src="../resource/js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" charset="utf-8">
+    $(document).ready(function () {
+        $("#header").load("../communal/headerFile.html");
+        $("#footer").load("../communal/footer.html");
+    });
+$(function () {
+    var $notice_btn = $(".notice_btn");
+    var $aboutWe_btn = $(".aboutWe_btn");
+    $aboutWe_btn.click(function () {
+        var $contB_list = $(".contB_list");
+        var $aboutWe = $(".aboutWe");
+        $aboutWe.show();
+        $contB_list.hide();
+    });
+    $notice_btn.click(function () {
+        var $contB_list = $(".contB_list");
+        var $aboutWe = $(".aboutWe");
+        $contB_list.show();
+        $aboutWe.hide();
+    });
+})
+</script>

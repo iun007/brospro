@@ -1,0 +1,206 @@
+.content{
+    position: relative;
+    width: 100%;
+}
+.mainImg{
+    position: relative;
+    width: 100%;
+    height: 522px;
+    /*background-image: url('http://d26uhratvi024l.cloudfront.net/gsc/ZLPBY6/b4/26/f3/b426f38f4f5746d99…91687/images/业务主页/u466_state0.jpeg?token=c14ab38f06c58f6f0e5f849f7f8ae49d');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;*/
+    background: yellow;
+    overflow: hidden;
+}
+
+.littleIcon{
+    position: absolute;
+    text-align: center;
+    margin-left: -15px;
+    left: 50%;
+    top: 115px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: 700;
+    font-style: italic;
+    color: black;
+    background-image: url('http://dxlfb468n8ekd.cloudfront.net/gsc/ZLPBY6/b4/26/f3/b426f38f4f5746d99c7160ebaab91687/images/业务主页/u470.png?token=478b2e8c55fd7e27982b73de18fc30df');
+    background-repeat: no-repeat;
+}
+
+.MainTitle{
+    margin-top: 218px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 36px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.subtitle{
+    text-align: center;
+    margin-top: 20px;
+    font-size:14px ;
+
+}
+
+.button{
+    position: absolute;
+    margin-left:-120px;
+    width: 240px;
+    height: 68px;
+    line-height: 68px;
+    left: 50%;
+    top: -36px;
+    font-size: 13px;
+    color: #fff;
+    background-color: #8BABD1;
+    text-align:center;
+    cursor: pointer;
+    border-radius:5px ;
+}
+
+.button:hover{
+    background-color: #7096C5;
+}
+
+.more{
+
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #EFF1F0;
+}
+
+.more ul{
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.more ul li{
+    float: left;
+    width: 400px;
+    height: 100%;
+
+}
+.icon{
+    margin: 100px auto 0;
+    width: 110px;
+    height:110px;
+    line-height: 110px;
+    background: url('http://d2t44wh9rnwl5y.cloudfront.net/gsc/ZLPBY6/b4/26/f3/b426f38f4f5746d99c7160ebaab91687/images/业务主页/u486.png?token=83fbbf3c6d86a78988ddebbac51e8438') no-repeat;
+    overflow: hidden;
+}
+
+.more ul li:nth-child(1) .icon div{
+    margin: 43px auto;
+    width:30px;
+    height: 30px;
+    background: url("http://d26uhratvi024l.cloudfront.net/gsc/ZLPBY6/b4/26/f3/b426f38f4f5746d99c7160ebaab91687/images/业务主页/u494.png?token=14320dbb6179143688e7a3e38ae8b56b") no-repeat;
+}
+.more ul li:nth-child(2) .icon div{
+    margin: 43px auto;
+    width:30px;
+    height: 30px;
+    background: url("http://d26uhratvi024l.cloudfront.net/gsc/ZLPBY6/b4/26/f3/b426f38f4f5746d99c7160ebaab91687/images/业务主页/u496.png?token=044eff1a867ae82e56bd395a57d3e654") no-repeat;
+}
+
+.more ul li:nth-child(3) .icon div{
+    margin: 43px auto;
+    width:30px;
+    height: 30px;
+}
+
+.more ul li:nth-child(3) .icon div span{
+    margin-bottom: 3px;
+    display: block;
+    height: 7px;
+    background-color:#8BABD1;
+
+}
+
+
+ .description{
+     margin: 0 auto;
+    width: 204px;
+     text-align: center;
+ }
+
+ .description div{
+     height: 100px;
+     line-height: 100px;
+     font-size: 16px;
+ }
+.description p{
+    font-size: 10px;
+}
+
+.enterprisEssential h3{
+    margin:0 auto;
+    height: 100px;
+    line-height: 100px;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.EssentialContent{
+    position: relative;
+    width: 100%;
+}
+
+
+.EssentialContent ul{
+    margin: 0 auto;
+    padding: 50px 0;
+    width: 1200px;
+    overflow: hidden;
+}
+.EssentialContent ul li:nth-child(1){
+    float: left;
+    width:40% ;
+}
+
+.EssentialContent ul li:nth-child(2){
+    float: right;
+
+}
+
+
+.productName,.price{
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+}
+.price{
+    font-weight: bold;
+}
+
+.EssentialContent ul li p{
+    width: 480px;
+    font-size: 10px;
+}
+
+.producButton{
+    margin: 40px 0 0 0;
+    width: 213px;
+    height: 64px;
+    line-height: 64px;
+    color: #fff;
+    text-align: center;
+    background-color:#30CCFF;
+    border-radius:42px;
+}
+.enterprisEssential span{
+    position: absolute;
+    top:0;
+    left: 50%;
+    width: 1px;
+    height: 372px;;
+    background: #d9d9d9;
+}
+
+

@@ -1,0 +1,451 @@
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 522px;
+    overflow: hidden;
+    /*margin: 30px auto;*/
+    margin-bottom: 45px;
+    position: relative;
+}
+
+.banner .bannerInner {
+    width: 100%;
+    height: 522px;
+    background: url("../image/loding.gif") no-repeat center #ccc;/*延迟加载的图片*/
+}
+
+.banner .bannerInner div {
+    width: 100%;
+    height: 522px;
+    position: absolute;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.banner .bannerInner div.opacity{
+    opacity: 100;
+    filter: alpha(opacity=1);
+}
+
+.banner .bannerInner div img {
+    width: 100%;
+    height: 100%;
+}
+
+.common_da .common{
+    display: none;
+    width:50px;
+    height: 100px;
+    position: absolute;
+    z-index: 25;
+    top:50%;
+    margin-top: -50px;
+}
+
+.banner:hover .common_da  .common{
+    display: block;
+}
+
+.common_da .btnLeft{
+    opacity: 0.5;
+    left:0px;
+    background: url(../image/sprite.png) no-repeat;
+}
+.common_da .btnRight{
+    opacity: 0.5;
+    right:0px;
+    background: url(../image/sprite.png) no-repeat -60px 0;
+}
+.focusList {
+    width: 152px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 20px;
+    left: 45%;
+}
+
+.focusList li {
+    float: left;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 18px;
+    margin-top: 12px;
+    background: #ececec;
+    cursor: pointer;
+}
+
+.focusList li.bg {
+    background: #626262;
+}
+/*banner图结束*/
+/*通告开始*/
+.annun{
+    width: 1200px;
+    height: 290px;
+    margin: 0 auto;
+}
+
+.annunL{
+    width: 590px;
+    height: 290px;
+    float: left;
+}
+
+.annunLT{
+    width: 590px;
+    height: 45px;
+    border-bottom: 1px solid #797979;
+}
+
+.annunLT p{
+    width: 339px;
+    height: 43px;
+    border-bottom: 3px solid #797979;
+    font-size: 28px;
+    font-family: 'Arial Normal', 'Arial';
+    color: #333;
+    padding: 0 0 0 10px;
+    float: left;
+}
+
+.annunLT p span{
+    font-family: 'Arial Normal', 'Arial';
+    font-size: 20px;
+}
+
+.annunLT .annunBtn{
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #797979;
+    line-height: 40px;
+    text-align: center;
+    float: right;
+}
+
+.annunLT .annunBtn a{
+    font-family: 'Arial Normal', 'Arial';
+    color: #333;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.annunLT .annunBtn a:hover{
+    background: #BCBCBC;
+    color: #fff;
+}
+
+.annun_textImg{
+    width: 590px;
+    height: 300px;
+    margin: 30px 0 0 0;
+}
+
+.annun_textImg .IMg{
+    width: 300px;
+    height: 170px;
+    float: left;
+}
+
+.annun_textImg .IMg img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.annun_textImg .text{
+    width: 258px;
+    float: right;
+}
+
+.annun_textImg .title{
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Arial Normal', 'Arial';
+    margin: 0 0 35px 0;
+}
+.annun_textImg span{
+    font-size: 14px;
+    font-family: 'Arial Normal', 'Arial';
+}
+
+
+.annunR{
+    width: 360px;
+    height: 290px;
+    float: right;
+}
+.annunR .annunLT{
+    width: 360px;
+    height: 45px;
+    border-bottom: 1px solid #797979;
+}
+
+.annunR .annunLT p{
+    width: 200px;
+    height: 43px;
+    border-bottom: 3px solid #797979;
+    font-size: 28px;
+    font-family: 'Arial Normal', 'Arial';
+    color: #333;
+    padding: 0 0 0 10px;
+    float: left;
+}
+
+.annunR .annunLT p span{
+    font-family: 'Arial Normal', 'Arial';
+    font-size: 20px;
+}
+
+.annunR .annunLT .annunBtn{
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #797979;
+    line-height: 40px;
+    text-align: center;
+    float: right;
+}
+
+.annunR .annunLT .annunBtn a{
+    font-family: 'Arial Normal', 'Arial';
+    color: #333;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.annunR .annunLT .annunBtn a:hover{
+    background: #BCBCBC;
+    color: #fff;
+}
+
+.annun_list{
+    width: 100%;
+    height: 168px;
+    margin: 30px 0 0 0;
+}
+
+.annun_list li{
+    width: 100%;
+    height: 42px;
+    line-height: 42px;
+    font-size: 18px;
+    color: #333;
+    font-family: 'Arial Normal', 'Arial';
+    cursor: pointer;
+}
+
+.annun_list li small{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #797979;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 5px 12px -6px 0px;
+}
+
+.annun_list li span{
+    font-size: 17px;
+    color: #797979;
+}
+/*通告完*/
+/*企业服务*/
+
+.serve{
+    width: 100%;
+    height: 546px;
+    margin: 0 auto;
+    background: url("../image/backgound_u180.jpg") no-repeat center;
+}
+
+.title{
+    font-size: 28px;
+    font-family: 'Arial Normal', 'Arial';
+    text-align: center;
+    position: relative;
+    margin: 0 0 30px 0;
+}
+
+ .title small{
+    width: 137px;
+    height: 2px;
+    background: #797979;
+    display: inline-block;
+    margin: 0 7px 7px 7px;
+}
+
+.panel_state{
+    width: 600px;
+    height: 262px;
+    float: left;
+}
+
+.serve .serve1200{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.panel_state .fadeOut{
+    color: #fff;
+    margin: 88px 0 0 0;
+    float: left;
+    width: 380px;
+    position: relative;
+}
+
+.panel_state .fadeOut span{
+    font-size: 36px;
+    position: absolute;
+    left: 20%;
+    bottom: 0;
+}
+
+.fadelistL{
+    width: 100px;
+    float: left;
+}
+.fadelistR{
+    width: 100px;
+    float: right;
+    margin: 34px 110px 0 0;
+}
+
+.fadelistL li,.fadelistR li{
+    height: 32px;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    border-bottom: 1px dashed #fff;
+    transform: rotateY(90deg);
+    transition:all .5s;
+}
+
+.panel_state:hover .fadelistL li{
+    transform: rotateY(0deg);
+}
+
+.panel_state:hover .fadelistR li{
+    transform: rotateY(0deg);
+}
+
+.boximg{
+    float: right;
+    margin: 121px 218px 0 0;
+    position: relative;
+}
+
+.deg90{
+    width: 121px;
+    height: 121px;
+    position: absolute;
+    left: 22px;
+}
+ .deg180{
+    width: 160px;
+    height: 143px;
+     position: absolute;
+}
+
+.deg90 img, .deg180 img{
+    width: 100%;
+    height: 100%;
+}
+
+.hover{
+    transform: rotateY(180deg);
+    transition:all .2s;
+}
+
+.phover{
+    transform: rotateY(90deg);
+    transition:all .2s;
+}
+
+.hover1{
+    transform: rotateY(90deg);
+    transition:all .2s;
+}
+
+.phover1{
+    transform: rotateY(180deg);
+    transition:all .2s;
+}
+/*企业服务完*/
+/*园区优势*/
+.merit{
+    width: 1200px;
+    height: 340px;
+    margin: 30px auto;
+}
+
+.merit_IMG{
+    width: 268px;
+    height: 340px;
+    float: left;
+}
+
+.merit_IMG img{
+    width: 100%;
+    height: 100%;
+}
+
+.merit_text{
+    width: 810px;
+    height: 340px;
+    float: right;
+}
+
+.merit_text p.title{
+    font-size: 28px;
+    text-align: left;
+    width: 378px;
+    height: 40px;
+    border-bottom: 7px solid #797979;
+    margin: 0;
+}
+
+.merit_text .border{
+    width: 756px;
+    height: 100%;
+    border-top: 1px solid #797979;
+}
+
+.border .list{
+    width: 756px;
+    height: 100%;
+    margin: 40px 0 0 0;
+}
+
+.border .list li{
+    width: 378px;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    margin: 30px 0 0 0;
+}
+
+.border .list li small{
+    width: 30px;
+    height: 30px;
+    background: #009BD2;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    margin:  0 40px 0 0;
+    font-size: 18px;
+}
+
+.border .list li span{
+    background: #009BD2;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 0 30px;
+}
