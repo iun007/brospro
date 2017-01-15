@@ -87,6 +87,7 @@ body{
 .navList{
     height: 0px;
     overflow: hidden;
+    width: 100%;
 }
 
 .nav_text .list li:hover .navList{
@@ -102,6 +103,11 @@ body{
     z-index: 10;
 }
 
+.navList1200{
+    width: 1366px;
+    height: 100%;
+    margin: 0 auto;
+}
 
 .w337{
     width: 337px;
