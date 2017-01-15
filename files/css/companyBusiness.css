@@ -6,12 +6,10 @@
     position: relative;
     width: 100%;
     height: 522px;
-    /*background-image: url('http://d26uhratvi024l.cloudfront.net/gsc/ZLPBY6/b4/26/f3/b426f38f4f5746d99…91687/images/业务主页/u466_state0.jpeg?token=c14ab38f06c58f6f0e5f849f7f8ae49d');
+    background-image: url('../image/yuanquyewu.jpg');
     background-position: center top;
     background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;*/
-    background: yellow;
+    background-size: cover;
     overflow: hidden;
 }
 
@@ -26,8 +24,8 @@
     line-height: 30px;
     font-weight: 700;
     font-style: italic;
-    color: black;
-    background-image: url('http://dxlfb468n8ekd.cloudfront.net/gsc/ZLPBY6/b4/26/f3/b426f38f4f5746d99c7160ebaab91687/images/业务主页/u470.png?token=478b2e8c55fd7e27982b73de18fc30df');
+    color: #fff;
+    background-image: url('http://d2v8ggac1o0f6z.cloudfront.net/gsc/ZLPBY6/5e/11/87/5e11877aed7d472081074fcd1b25807a/images/业务主页/u458.png?token=813ba36e6fb8d4933df9645f766cc269');
     background-repeat: no-repeat;
 }
 
@@ -90,7 +88,7 @@
     width: 110px;
     height:110px;
     line-height: 110px;
-    background: url('http://d2t44wh9rnwl5y.cloudfront.net/gsc/ZLPBY6/b4/26/f3/b426f38f4f5746d99c7160ebaab91687/images/业务主页/u486.png?token=83fbbf3c6d86a78988ddebbac51e8438') no-repeat;
+    background: url('http://d2t44wh9rnwl5y.cloudfront.net/gsc/ZLPBY6/5e/11/87/5e11877aed7d472081074fcd1b25807a/images/业务主页/u474.png?token=94a3b841f0e5d8cec70f027fe4db5654') no-repeat;
     overflow: hidden;
 }
 
@@ -98,13 +96,13 @@
     margin: 43px auto;
     width:30px;
     height: 30px;
-    background: url("http://d26uhratvi024l.cloudfront.net/gsc/ZLPBY6/b4/26/f3/b426f38f4f5746d99c7160ebaab91687/images/业务主页/u494.png?token=14320dbb6179143688e7a3e38ae8b56b") no-repeat;
+    background: url("http://dxlfb468n8ekd.cloudfront.net/gsc/ZLPBY6/5e/11/87/5e11877aed7d472081074fcd1b25807a/images/业务主页/u482.png?token=7bcba841645ee3ca4375a2e13f127f72") no-repeat;
 }
 .more ul li:nth-child(2) .icon div{
     margin: 43px auto;
     width:30px;
     height: 30px;
-    background: url("http://d26uhratvi024l.cloudfront.net/gsc/ZLPBY6/b4/26/f3/b426f38f4f5746d99c7160ebaab91687/images/业务主页/u496.png?token=044eff1a867ae82e56bd395a57d3e654") no-repeat;
+    background: url("http://dxlfb468n8ekd.cloudfront.net/gsc/ZLPBY6/5e/11/87/5e11877aed7d472081074fcd1b25807a/images/业务主页/u484.png?token=77bdd8f1ac044c509c32472bbabdeabb") no-repeat;
 }
 
 .more ul li:nth-child(3) .icon div{
