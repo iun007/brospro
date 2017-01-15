@@ -1,0 +1,77 @@
+.LOGO_IMG{
+    width: 100%;
+    height: 335px;
+    margin: 0 auto;
+}
+
+.LOGO_IMG img{
+    width: 100%;
+    height: 100%;
+}
+
+.form_Text{
+    width: 306px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.form_Text p{
+    font-size: 24px;
+    color: #333;
+    font-family: 'Arial Narrow', 'Arial';
+    font-weight: bolder;
+    margin: 20px 0;
+}
+
+.form_Text label{
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+}
+
+.form_Text input{
+    font-size: 18px;
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #8BABD1;
+    margin: 10px 0 10px 0;
+}
+
+.form_Text  input[type=button]{
+    background: #990000;
+    color: #fff;
+    letter-spacing:8px;
+    cursor: pointer;
+}
+
+.back_color {
+    width: 100%;
+    height: 100%;
+    background: #f2F2F2;
+}
+
+.notice{
+    width: 306px;
+    height: 100%;
+    background: #F2F2F2;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.notice .title_notice{
+    font-size: 36px;
+    color: #333333;
+    margin: 30px 0 10px 0;
+}
+
+.notice ul li {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 0 10px 0;
+}
+
+.notice ul li p {
+    font-size: 16px;
+    font-weight: bolder;
+}
