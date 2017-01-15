@@ -1,0 +1,152 @@
+.content {
+    position: relative;
+    width: 100%;
+}
+
+.mainImg {
+    position: relative;
+    width: 100%;
+    height: 522px;
+    /*background-image: url('http://d26uhratvi024l.cloudfront.net/gsc/ZLPBY6/b4/26/f3/b426f38f4f5746d99…91687/images/业务主页/u466_state0.jpeg?token=c14ab38f06c58f6f0e5f849f7f8ae49d');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;*/
+    background: yellow;
+    overflow: hidden;
+}
+
+.littleIcon {
+    position: absolute;
+    text-align: center;
+    margin-left: -15px;
+    left: 50%;
+    top: 115px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: 700;
+    font-style: italic;
+    color: black;
+    background-image: url('http://dxlfb468n8ekd.cloudfront.net/gsc/ZLPBY6/b4/26/f3/b426f38f4f5746d99c7160ebaab91687/images/业务主页/u470.png?token=478b2e8c55fd7e27982b73de18fc30df');
+    background-repeat: no-repeat;
+}
+
+.MainTitle {
+    margin-top: 218px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 36px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.subtitle {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+
+}
+
+.button {
+    position: absolute;
+    margin-left: -120px;
+    width: 240px;
+    height: 68px;
+    line-height: 68px;
+    left: 50%;
+    top: -36px;
+    font-size: 13px;
+    color: #fff;
+    background-color: #8BABD1;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #7096C5;
+}
+
+.enterprisEssential {
+    position: relative;
+    background: #EFF1F0;
+
+}
+
+.enterprisEssential h3 {
+    padding-top: 10px;
+    margin: 0 auto;
+    height: 100px;
+    line-height: 100px;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.EssentialContent {
+    position: relative;
+    width: 100%;
+}
+
+.EssentialContent ul {
+    margin: 0 auto;
+    padding: 50px 0;
+    width: 1200px;
+    overflow: hidden;
+}
+
+.EssentialContent ul li {
+    float: left;
+    width: 33%;
+}
+
+.EssentialContent ul li:nth-child(4),.EssentialContent ul li:nth-child(5),.EssentialContent ul li:nth-child(6) {
+    margin-top: 80px;
+}
+
+.productIcon{
+    width: 37px;
+    height: 37px;
+}
+
+.productIcon img{
+    width: 100%;
+    height:100%;
+}
+.productName, .price {
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+}
+
+.price {
+    font-weight: bold;
+}
+
+.EssentialContent ul li p {
+    width: 320px;
+    font-size: 10px;
+}
+
+.producButton {
+    margin: 40px 0 0 0;
+    width: 137px;
+    height: 41px;
+    line-height: 41px;
+    color: #fff;
+    text-align: center;
+    background-color: #30CCFF;
+    border-radius: 20px;
+}
+
+.enterprisEssential span {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 1px;
+    height: 372px;;
+    background: #d9d9d9;
+}
+
