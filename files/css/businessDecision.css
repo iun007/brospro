@@ -91,14 +91,47 @@
 
 .EssentialContent ul {
     margin: 0 auto;
-    padding: 50px 0;
+    padding: 80px 0;
     width: 1200px;
     overflow: hidden;
 }
 
 .EssentialContent ul li {
+    position: relative;
     float: left;
-    width: 33%;
+}
+
+.EssentialContent ul li:nth-child(3n+2) {
+  margin-left: 115px;
+
+}
+
+.EssentialContent ul li:nth-child(3n+2):before,.EssentialContent ul li:nth-child(3n):before{
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: -57px;
+    width: 1px;
+    height: 306px;
+    background: #E4E4E4;
+}
+
+.EssentialContent ul li:nth-child(3n){
+
+    margin-left: 115px;
+
+}
+
+
+.EssentialContent ul li:nth-child(3n):after{
+    position: absolute;
+    content: "";
+    bottom: -41px;
+    right: 189px;
+    width: 826px;
+    height: 1px;
+    background: #E4E4E4;
 }
 
 .EssentialContent ul li:nth-child(4),.EssentialContent ul li:nth-child(5),.EssentialContent ul li:nth-child(6) {
@@ -138,6 +171,7 @@
     text-align: center;
     background-color: #30CCFF;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 .enterprisEssential span {
