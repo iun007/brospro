@@ -7,7 +7,6 @@
     width: 100%;
     height: 522px;
     background-image: url('../image/yuanquyewu.jpg');
-    /*background-position: center top;*/
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
@@ -24,8 +23,8 @@
     line-height: 30px;
     font-weight: 700;
     font-style: italic;
-    color: black;
-    background-image: url('http://dxlfb468n8ekd.cloudfront.net/gsc/ZLPBY6/b4/26/f3/b426f38f4f5746d99c7160ebaab91687/images/业务主页/u470.png?token=478b2e8c55fd7e27982b73de18fc30df');
+    color: #fff;
+    background-image: url('http://d2v8ggac1o0f6z.cloudfront.net/gsc/ZLPBY6/5e/11/87/5e11877aed7d472081074fcd1b25807a/images/业务主页/u458.png?token=813ba36e6fb8d4933df9645f766cc269');
     background-repeat: no-repeat;
 }
 
