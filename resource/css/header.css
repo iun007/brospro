@@ -46,6 +46,10 @@ body{
     background: rgba(188, 188, 188, 1);
 }
 
+.btn a{
+    color: #333333;
+}
+
 .nav1200{
     width: 100%;
     height: 46px;
