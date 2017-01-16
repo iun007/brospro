@@ -63,6 +63,11 @@ body{
     margin: 0 47px 0 0;
 }
 
+.nav_text .list li a{
+    width: 100%;
+    color: #333;
+}
+
 .nav_text .list li span{
     display: inline-block;
     cursor: pointer;
